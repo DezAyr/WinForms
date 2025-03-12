@@ -115,6 +115,7 @@ namespace Windows_Forms_Sample
             ((System.ComponentModel.ISupportInitialize)ErrorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
+            this.Load += new System.EventHandler(this.Form1_Load);
         }
 
         #endregion
